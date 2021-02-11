@@ -17,4 +17,4 @@ Steps for library installation for PlatformIO:
 3. Move the 'Blink' directory to the 'src' of your PIO project
 4. At the top of your code after '#include <Arduino.h>', add '#include <Blink.h>' in the next line. The library is now added to your sketch
 
-Note: In ArduinoIDE, you have to create an oblect and the functions act as a method. In PIO, you can use the function by itself. See the examples folder above for code.
+Note: In PIO, you have an option to use the functions by themselves or as methods. But in ArduinoIDE, you have to use them as methods.
