@@ -2,13 +2,6 @@
 #define Blink_h
 #include "Arduino.h"
 
-class Blink {
-	private:
-		int led;
+void blinkLED(int pin, int del);
 		
-	public:
-		Blink();
-		void blinkLED(int pin, int del);
-		
-	#endif
-};
+#endif
